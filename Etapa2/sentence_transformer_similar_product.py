@@ -3,7 +3,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 import sklearn
 from sklearn.metrics import ndcg_score
-from load import load_data
+from Etapa1.load import load_data
 
 order_products_prior,order_products_train, orders, products = load_data()
 

@@ -4,12 +4,12 @@ from typing import List, Dict, Any
 from langchain_core.tools import tool
 from langchain_openai import ChatOpenAI
 from langgraph.prebuilt import create_react_agent
-from sentence_transformer_similar_product import *
-from merge import *
-from data_limpia_features import *
-from model import *
-from load import load_data
-from no_comprados import *
+from Etapa2.sentence_transformer_similar_product import *
+from Etapa1.merge import *
+from Etapa1.data_limpia_features import *
+from Etapa1.model import *
+from Etapa1.load import load_data
+from Etapa1.no_comprados import *
 from  sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -20,7 +20,6 @@ from dotenv import load_dotenv  # <-- Para leer tu archivo .env
 
 from typing import List, Dict, Any
 
-from load import load_data
 
 order_products_prior,order_products_train, orders, products = load_data()
 
