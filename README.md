@@ -95,7 +95,7 @@ El key de la api de openai se almacena en un archivo .env
 
 ## Ejecución
 
-1. Colocar los archivos CSV dentro de la carpeta `Data/`.
+1. Colocar los archivos CSV dentro de la carpeta `Data/` y cargar librerías del archivo requirements.txt.
 2. Ejecutar el notebook principal.
 3. Entrenar el modelo.
 4. Consultar el agente mediante las herramientas implementadas.
